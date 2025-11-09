@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Introduction to IoT",
+    "subject": "IoT",
+    "date": "2025-10-25",
+    "videoUrl": "https://drive.google.com/file/d/18nac3G4GoVb7wZatvZvjDXsCZORhdXs5/preview"
+  },
+  {
+    "id": 2,
+    "title": "Cloud Computing Basics",
+    "subject": "Cloud",
+    "date": "2025-10-26",
+    "videoUrl": "https://drive.google.com/file/d/1wQgiEMo4qR8xafAeTdw-u2W9F-eagNpc/preview"
+  },
+  {
+    "id": 3,
+    "title": "Raspberry Pi Projects",
+    "subject": "IoT",
+    "date": "2025-10-28",
+    "videoUrl": "https://drive.google.com/file/d/1b5KNq_Zk_stSnX69syLv3rDpJPZWcg29/preview"
+  },
+  {
+    "id": 4,
+    "title": "Smart Classroom Automation",
+    "subject": "IoT",
+    "date": "2025-10-30",
+    "videoUrl": "https://drive.google.com/file/d/1zTqUblPaCuSUXBFFgusl-XYuybRj3k9_/preview"
+  }
+]

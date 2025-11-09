@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🎥 Raspberry Pi Video Recorder</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f7f9;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: white;
+      padding: 30px 40px;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      width: 400px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    label {
+      display: block;
+      text-align: left;
+      margin: 10px 0 4px;
+      font-weight: 500;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 8px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+    }
+    .duration-container {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+    }
+    select {
+      width: 30%;
+      padding: 6px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 15px;
+      text-align: center;
+    }
+    button {
+      background: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 10px 18px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      width: 100%;
+    }
+    button:hover {
+      background: #005fa3;
+    }
+    #status {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #333;
+    }
+    .loading {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 3px solid #ccc;
+      border-top-color: #0078d7;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      margin-right: 8px;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>🎥 Raspberry Pi Video Recorder</h2>
+    <form id="recordForm">
+      <label for="name">Video Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter name" required>
+
+      <label>Duration:</label>
+      <div class="duration-container">
+        <select id="hours" name="hours">
+          <option value="0" selected>0 hr</option>
+          <option value="1">1 hr</option>
+          <option value="2">2 hr</option>
+        </select>
+        <select id="minutes" name="minutes">
+          <!-- 0–59 minutes -->
+        </select>
+        <select id="seconds" name="seconds">
+          <!-- 0–59 seconds -->
+        </select>
+      </div>
+
+      <button type="submit">Start Recording</button>
+    </form>
+
+    <div id="status"></div>
+  </div>
+
+  <script>
+    const minutesSelect = document.getElementById("minutes");
+    const secondsSelect = document.getElementById("seconds");
+    const form = document.getElementById("recordForm");
+    const statusDiv = document.getElementById("status");
+
+    // Populate minute & second dropdowns
+    for (let i = 0; i < 60; i++) {
+      const val = i.toString();
+      const label = i.toString().padStart(2, "0");
+      minutesSelect.innerHTML += `<option value="${val}">${label} min</option>`;
+      secondsSelect.innerHTML += `<option value="${val}">${label} sec</option>`;
+    }
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      statusDiv.innerHTML = '<div class="loading"></div>Lecture recording has been started...';
+
+      const name = document.getElementById("name").value;
+      const hours = parseInt(document.getElementById("hours").value);
+      const minutes = parseInt(document.getElementById("minutes").value);
+      const seconds = parseInt(document.getElementById("seconds").value);
+
+      const duration = hours * 3600 + minutes * 60 + seconds;
+      if (duration <= 0) {
+        statusDiv.innerHTML = "<b>⚠️ Please select a valid duration!</b>";
+        return;
+      }
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("duration", duration);
+
+      try {
+        const response = await fetch("/start_record", {
+          method: "POST",
+          body: formData,
+        });
+        const result = await response.json();
+
+        if (result.status === "success") {
+          statusDiv.innerHTML = `<b>✅ Recording completed!</b> (${hours}h ${minutes}m ${seconds}s)<br>File: <i>${result.filename}</i>`;
+        } else {
+          statusDiv.innerHTML = `<b>⚠️ Error:</b> ${result.message || "Unknown error"}`;
+        }
+      } catch (err) {
+        statusDiv.innerHTML = `<b>❌ Failed to connect to server.</b>`;
+      }
+    });
+  </script>
+</body>
+</html>

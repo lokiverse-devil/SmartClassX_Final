@@ -1,0 +1,656 @@
+[
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "Pin",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "I2C",
+        "importPath": "machine",
+        "description": "machine",
+        "isExtraImport": true,
+        "detail": "machine",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "ssd1306",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ssd1306",
+        "description": "ssd1306",
+        "detail": "ssd1306",
+        "documentation": {}
+    },
+    {
+        "label": "network",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "network",
+        "description": "network",
+        "detail": "network",
+        "documentation": {}
+    },
+    {
+        "label": "urequests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urequests",
+        "description": "urequests",
+        "detail": "urequests",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_from_directory",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "send_from_directory",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "guess_type",
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "isExtraImport": true,
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "led_on",
+        "kind": 2,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "def led_on():\n    led.value(0 if ACTIVE_LOW else 1)\ndef led_off():\n    led.value(1 if ACTIVE_LOW else 0)\ndef blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()\n        time.sleep_ms(on_ms)\n        led_off()\n        time.sleep_ms(off_ms)",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "led_off",
+        "kind": 2,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "def led_off():\n    led.value(1 if ACTIVE_LOW else 0)\ndef blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()\n        time.sleep_ms(on_ms)\n        led_off()\n        time.sleep_ms(off_ms)\ntry:\n    from noticeboard import SmartNoticeBoard",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "blink",
+        "kind": 2,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "def blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()\n        time.sleep_ms(on_ms)\n        led_off()\n        time.sleep_ms(off_ms)\ntry:\n    from noticeboard import SmartNoticeBoard\nexcept Exception as e:\n    print(\"Import error:\", e)",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "LED_PIN",
+        "kind": 5,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "LED_PIN = 2        \nACTIVE_LOW = False  \nled = Pin(LED_PIN, Pin.OUT)\ndef led_on():\n    led.value(0 if ACTIVE_LOW else 1)\ndef led_off():\n    led.value(1 if ACTIVE_LOW else 0)\ndef blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "ACTIVE_LOW",
+        "kind": 5,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "ACTIVE_LOW = False  \nled = Pin(LED_PIN, Pin.OUT)\ndef led_on():\n    led.value(0 if ACTIVE_LOW else 1)\ndef led_off():\n    led.value(1 if ACTIVE_LOW else 0)\ndef blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()\n        time.sleep_ms(on_ms)",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "led",
+        "kind": 5,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "led = Pin(LED_PIN, Pin.OUT)\ndef led_on():\n    led.value(0 if ACTIVE_LOW else 1)\ndef led_off():\n    led.value(1 if ACTIVE_LOW else 0)\ndef blink(times, on_ms=200, off_ms=150):\n    for _ in range(times):\n        led_on()\n        time.sleep_ms(on_ms)\n        led_off()",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "ESP32 Notice Board Code.boot",
+        "description": "ESP32 Notice Board Code.boot",
+        "peekOfCode": "app = SmartNoticeBoard()\ntry:\n    app.wifi.connect()   \n    blink(1, 350, 150)   \nexcept Exception as e:\n    print(\"WiFi/connect error:\", e)\n    blink(2, 350, 200)  \n    raise\ntry:\n    app.run()",
+        "detail": "ESP32 Notice Board Code.boot",
+        "documentation": {}
+    },
+    {
+        "label": "WiFiManager",
+        "kind": 6,
+        "importPath": "ESP32 Notice Board Code.noticeboard",
+        "description": "ESP32 Notice Board Code.noticeboard",
+        "peekOfCode": "class WiFiManager:\n    def __init__(self, ssid, password):\n        self.ssid = ssid\n        self.password = password\n        self.wifi = network.WLAN(network.STA_IF)\n    def connect(self):\n        self.wifi.active(True)\n        self.wifi.connect(self.ssid, self.password)\n        while not self.wifi.isconnected():\n            print(\"Connecting to WiFi...\")",
+        "detail": "ESP32 Notice Board Code.noticeboard",
+        "documentation": {}
+    },
+    {
+        "label": "OLEDDisplay",
+        "kind": 6,
+        "importPath": "ESP32 Notice Board Code.noticeboard",
+        "description": "ESP32 Notice Board Code.noticeboard",
+        "peekOfCode": "class OLEDDisplay:\n    def __init__(self, scl_pin=22, sda_pin=21, width=128, height=64):\n        i2c = I2C(0, scl=Pin(scl_pin), sda=Pin(sda_pin))\n        self.oled = ssd1306.SSD1306_I2C(width, height, i2c)\n    def wrap_text(self, text, max_chars=16):\n        words = text.split(' ')\n        lines, current = [], \"\"\n        for word in words:\n            if len(current + ' ' + word) <= max_chars:\n                current = (current + ' ' + word).strip()",
+        "detail": "ESP32 Notice Board Code.noticeboard",
+        "documentation": {}
+    },
+    {
+        "label": "EventManager",
+        "kind": 6,
+        "importPath": "ESP32 Notice Board Code.noticeboard",
+        "description": "ESP32 Notice Board Code.noticeboard",
+        "peekOfCode": "class EventManager:\n    def __init__(self, url):\n        self.url = url\n        self.previous_events = []\n    def fetch_events(self):\n        try:\n            r = urequests.get(self.url)\n            data = r.json()\n            r.close()\n            return data",
+        "detail": "ESP32 Notice Board Code.noticeboard",
+        "documentation": {}
+    },
+    {
+        "label": "SmartNoticeBoard",
+        "kind": 6,
+        "importPath": "ESP32 Notice Board Code.noticeboard",
+        "description": "ESP32 Notice Board Code.noticeboard",
+        "peekOfCode": "class SmartNoticeBoard:\n    def __init__(self):\n        self.wifi = WiFiManager(\"<Wifi SSID>\", \"<Password>\")\n        self.display = OLEDDisplay()\n        self.event_manager = EventManager(\n            \"https://opensheet.elk.sh/14Ds6rUqfqAZFYH18PUCrN0-4BLnaMQRwbxqEFPWl8H4/Sheet1\"\n        )\n    def run(self):\n        self.wifi.connect()\n        while True:",
+        "detail": "ESP32 Notice Board Code.noticeboard",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "def index():\n    return render_template(\"index.html\")\n@app.route(\"/start_record\", methods=[\"POST\"])\ndef start_record():\n    name = request.form[\"name\"]\n    duration = int(request.form[\"duration\"])\n    # Send request to Raspberry Pi\n    try:\n        res = requests.post(f\"{PI_IP}/record_video\", json={\n            \"name\": name,",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "start_record",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "def start_record():\n    name = request.form[\"name\"]\n    duration = int(request.form[\"duration\"])\n    # Send request to Raspberry Pi\n    try:\n        res = requests.post(f\"{PI_IP}/record_video\", json={\n            \"name\": name,\n            \"duration\": duration\n        })\n        return jsonify(res.json())",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "upload_video",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "def upload_video():\n    file = request.files[\"file\"]\n    filename = file.filename\n    filepath = os.path.join(UPLOAD_FOLDER, filename)\n    file.save(filepath)\n    return jsonify({\"status\": \"success\", \"file\": filename})\n@app.route(\"/videos/<filename>\")\ndef serve_video(filename):\n    return send_from_directory(UPLOAD_FOLDER, filename)\nif __name__ == \"__main__\":",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "serve_video",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "def serve_video(filename):\n    return send_from_directory(UPLOAD_FOLDER, filename)\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", port=5001)",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "app = Flask(__name__)\nUPLOAD_FOLDER = \"videos\"\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n# 🔧 Change this to your Pi's IP and port\nPI_IP = \"http://10.16.182.81:5001\"\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\")\n@app.route(\"/start_record\", methods=[\"POST\"])\ndef start_record():",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_FOLDER",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "UPLOAD_FOLDER = \"videos\"\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\n# 🔧 Change this to your Pi's IP and port\nPI_IP = \"http://10.16.182.81:5001\"\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\")\n@app.route(\"/start_record\", methods=[\"POST\"])\ndef start_record():\n    name = request.form[\"name\"]",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "PI_IP",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.app",
+        "description": "Raspberry Pi Camera Recording and code.app",
+        "peekOfCode": "PI_IP = \"http://10.16.182.81:5001\"\n@app.route(\"/\")\ndef index():\n    return render_template(\"index.html\")\n@app.route(\"/start_record\", methods=[\"POST\"])\ndef start_record():\n    name = request.form[\"name\"]\n    duration = int(request.form[\"duration\"])\n    # Send request to Raspberry Pi\n    try:",
+        "detail": "Raspberry Pi Camera Recording and code.app",
+        "documentation": {}
+    },
+    {
+        "label": "record_video",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "description": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "peekOfCode": "def record_video():\n    data = request.get_json()\n    name = data.get(\"name\", \"user\")\n    duration = int(data.get(\"duration\", 5))\n    filename = f\"{name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mp4\"\n    filepath = os.path.join(SAVE_FOLDER, filename)\n    # 🎥 Record both video and audio using ffmpeg\n    # -f v4l2 = video input\n    # -f alsa = audio input (for USB webcam mic)\n    # Adjust /dev/video0 and hw:1,0 if needed",
+        "detail": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "description": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "peekOfCode": "app = Flask(__name__)\nSAVE_FOLDER = \"recordings\"\nos.makedirs(SAVE_FOLDER, exist_ok=True)\n# 🔧 Change this to your laptop IP\nLAPTOP_SERVER = \"http://192.168.133.197:5001\"\n@app.route(\"/record_video\", methods=[\"POST\"])\ndef record_video():\n    data = request.get_json()\n    name = data.get(\"name\", \"user\")\n    duration = int(data.get(\"duration\", 5))",
+        "detail": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "documentation": {}
+    },
+    {
+        "label": "SAVE_FOLDER",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "description": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "peekOfCode": "SAVE_FOLDER = \"recordings\"\nos.makedirs(SAVE_FOLDER, exist_ok=True)\n# 🔧 Change this to your laptop IP\nLAPTOP_SERVER = \"http://192.168.133.197:5001\"\n@app.route(\"/record_video\", methods=[\"POST\"])\ndef record_video():\n    data = request.get_json()\n    name = data.get(\"name\", \"user\")\n    duration = int(data.get(\"duration\", 5))\n    filename = f\"{name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mp4\"",
+        "detail": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "documentation": {}
+    },
+    {
+        "label": "LAPTOP_SERVER",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "description": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "peekOfCode": "LAPTOP_SERVER = \"http://192.168.133.197:5001\"\n@app.route(\"/record_video\", methods=[\"POST\"])\ndef record_video():\n    data = request.get_json()\n    name = data.get(\"name\", \"user\")\n    duration = int(data.get(\"duration\", 5))\n    filename = f\"{name}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.mp4\"\n    filepath = os.path.join(SAVE_FOLDER, filename)\n    # 🎥 Record both video and audio using ffmpeg\n    # -f v4l2 = video input",
+        "detail": "Raspberry Pi Camera Recording and code.pi_record_server",
+        "documentation": {}
+    },
+    {
+        "label": "upload_video",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "def upload_video():\n    \"\"\"Upload a new lecture video\"\"\"\n    file = request.files.get(\"file\")\n    if not file:\n        return jsonify({\"error\": \"No file uploaded\"}), 400\n    filename = file.filename\n    path = os.path.join(VIDEO_FOLDER, filename)\n    file.save(path)\n    print(f\"✅ Uploaded: {filename}\")\n    return jsonify({\"message\": \"Uploaded successfully\", \"filename\": filename})",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "list_lectures",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "def list_lectures():\n    \"\"\"Return metadata for all available videos\"\"\"\n    ip = get_ip()\n    videos = [\n        {\n            \"id\": i + 1,\n            \"title\": os.path.splitext(fname)[0],\n            \"subject\": \"SmartClassX Lecture\",\n            \"date\": datetime.now().strftime(\"%Y-%m-%d\"),\n            \"videoUrl\": f\"http://{ip}:5002/videos/{fname}\",",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "stream_video",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "def stream_video(filename):\n    \"\"\"Stream video with byte-range support (for seeking & buffering)\"\"\"\n    file_path = os.path.join(VIDEO_FOLDER, filename)\n    if not os.path.exists(file_path):\n        return jsonify({\"error\": \"File not found\"}), 404\n    range_header = request.headers.get(\"Range\", None)\n    file_size = os.path.getsize(file_path)\n    mime_type, _ = guess_type(filename)\n    mime_type = mime_type or \"video/mp4\"\n    # Default start and end",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "get_ip",
+        "kind": 2,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "def get_ip():   \n    \"\"\"Detect the current device's LAN IP address\"\"\"\n    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)\n    try:\n        s.connect((\"10.254.254.254\", 1))\n        IP = s.getsockname()[0]\n    except Exception:\n        IP = \"127.0.0.1\"\n    finally:\n        s.close()",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app, resources={r\"/*\": {\"origins\": \"*\"}})\n# Folder where recorded videos are stored\nVIDEO_FOLDER = \"videos\"\nos.makedirs(VIDEO_FOLDER, exist_ok=True)\n# ---------------------------------------------\n# 📤 Upload video\n# ---------------------------------------------\n@app.route(\"/upload\", methods=[\"POST\"])\ndef upload_video():",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "VIDEO_FOLDER",
+        "kind": 5,
+        "importPath": "Raspberry Pi Camera Recording and code.server",
+        "description": "Raspberry Pi Camera Recording and code.server",
+        "peekOfCode": "VIDEO_FOLDER = \"videos\"\nos.makedirs(VIDEO_FOLDER, exist_ok=True)\n# ---------------------------------------------\n# 📤 Upload video\n# ---------------------------------------------\n@app.route(\"/upload\", methods=[\"POST\"])\ndef upload_video():\n    \"\"\"Upload a new lecture video\"\"\"\n    file = request.files.get(\"file\")\n    if not file:",
+        "detail": "Raspberry Pi Camera Recording and code.server",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "SmartClassX.attendance_hh.Frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "SmartClassX.document.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "SmartClassX.landing.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0",
+        "detail": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    keys = []\n    i = 0\n    for _ in value:\n        keys.append(i)\n        i += 1\n    return keys",
+        "detail": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "description": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "SmartClassX.record.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]
